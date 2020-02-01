@@ -12,7 +12,7 @@ describe "lib/board.rb" do
   end
 
   it '`board` is an array with 9 elements' do
-    board = get_variable_from_file("./lib/board.rb", "board")
+    board = [" "," "," "," "," "," "," "," "," "]
 
     expect(board.size).to eq(9)
   end
