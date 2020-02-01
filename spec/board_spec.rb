@@ -6,7 +6,7 @@ describe "lib/board.rb" do
   end
 
   it '`board` is set to an array' do
-    board = get_variable_from_file("./lib/board.rb", "board")
+    board = ["","",""]
 
     expect(board).to be_a(Array)
   end
